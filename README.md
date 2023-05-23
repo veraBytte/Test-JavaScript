@@ -79,3 +79,27 @@ const referencia = function(name,lastname,nickname){
     console.log(`Hola mi nombre es ${completeName} pero prefiero que me digas ${nickname}`)
   }
 ```
+# Condicionales
+## 1️⃣ Responde las siguientes preguntas en la sección de comentarios:
+### ¿Qué es un condicional?
+### ¿Qué tipos de condicionales existen en JavaScript y cuáles son sus diferencias?
+### ¿Puedo combinar funciones y condicionales?
+## 2️⃣ Replica el comportamiento del siguiente código que usa la sentencia switch utilizando if, else y else if:
+``` js
+const tipoDeSuscripcion = "Basic";
+
+switch (tipoDeSuscripcion) {
+   case "Free":
+       console.log("Solo puedes tomar los cursos gratis");
+       break;
+   case "Basic":
+       console.log("Puedes tomar casi todos los cursos de Platzi durante un mes");
+       break;
+   case "Expert":
+       console.log("Puedes tomar casi todos los cursos de Platzi durante un año");
+       break;
+   case "ExpertPlus":
+       console.log("Tú y alguien más pueden tomar TODOS los cursos de Platzi durante un año");
+       break;
+}
+```
