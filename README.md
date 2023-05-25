@@ -137,3 +137,35 @@ for (let index = 0; index < arraySubscriptions.length; index++){
     }
 }
 ```
+# Listas
+## 1️⃣ Responde las siguientes preguntas:
+### ¿Qué es un array?
+### ¿Qué es un objeto?
+### ¿Cuándo es mejor usar objetos o arrays?
+### ¿Puedo mezclar arrays con objetos o incluso objetos con arrays?
+## 2️⃣ Crea una función que pueda recibir cualquier array como parámetro e imprima su primer elemento.
+``` js
+let array = ["manzana","durazno","pera"];
+
+function firstElement(array){
+  return array[0]
+}
+```
+## 3️⃣ Crea una función que pueda recibir cualquier array como parámetro e imprima todos sus elementos uno por uno (no se vale imprimir el array completo).
+``` js
+function firstElement(array){
+  for (let element of array) {
+      console.log(element)
+  }
+}
+```
+## 4️⃣ Crea una función que pueda recibir cualquier objeto como parámetro e imprima todos sus elementos uno por uno (no se vale imprimir el objeto completo).
+``` js
+let arrayObj = [{nombre: "manzana"},{nombre: "pera"},{nombre: "durazno"},{nombre: "mango"}]
+
+function firstElementObj(array){
+  for (let element of array) {
+      console.log(element.nombre)
+  }
+}
+```
