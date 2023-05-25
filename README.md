@@ -80,10 +80,14 @@ const referencia = function(name,lastname,nickname){
   }
 ```
 # Condicionales
-## 1️⃣ Responde las siguientes preguntas en la sección de comentarios:
+## 1️⃣ Responde las siguientes preguntas :
 ### ¿Qué es un condicional?
+Un condicional es un bloque de codigo que se ejecuta bajo una condicion previamente establecida.
 ### ¿Qué tipos de condicionales existen en JavaScript y cuáles son sus diferencias?
+* if : La sentencia if nos dice que dada una condicion ejecute o no, un bloque de codigo
+* Switch : la sentencia switch lo que hace es que nos da la opcion de ejecutar diferentes acciones dadas diferentes condiciones
 ### ¿Puedo combinar funciones y condicionales?
+Claro que si se pueden combinar, es mas normalmente se trabajan los condicionales dentro de funciones porque son pedaos de codigo que normalemente se reutilian a lo largo del codigo
 ## 2️⃣ Replica el comportamiento del siguiente código que usa la sentencia switch utilizando if, else y else if:
 ``` js
 const tipoDeSuscripcion = "Basic";
@@ -101,5 +105,35 @@ switch (tipoDeSuscripcion) {
    case "ExpertPlus":
        console.log("Tú y alguien más pueden tomar TODOS los cursos de Platzi durante un año");
        break;
+}
+```
+Respuesta :
+``` js
+const tipoDeSuscripcion = "Basic";
+
+function validarSuscripcion(tipoDeSuscripcion){
+  if(tipoDeSuscripcion === 'Basic'){
+    console.log("Puedes tomar casi todos los cursos de Platzi durante un mes");
+  }else if(tipoDeSuscripcion === 'Expert'){
+    console.log("Puedes tomar casi todos los cursos de Platzi durante un año");
+  } else{
+    console.log("Tú y alguien más pueden tomar TODOS los cursos de Platzi durante un año");
+  }
+}
+```
+Respuesta solo con un if : 
+``` js
+let arraySubscriptions = ["free","basic","expert","plus"]
+const arrayMessages = ["solo puedes tomar los cursos gratis", 
+"puedes tomar casi todos los cursos de Platzi durante un mes", 
+"puedes tomar casi todos los cursos de Platzi durante un año", 
+"tú y alguien más pueden tomar TODOS los cursos de Platzi durante un año"]
+
+const usuario = "expert"
+
+for (let index = 0; index < arraySubscriptions.length; index++){
+    if (usuario === arraySubscriptions[index]) {
+        console.log(`Tu subscripcion ${arraySubscriptions[index]} tiene acceso a ${arrayMessages[index]}`)
+    }
 }
 ```
