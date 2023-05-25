@@ -140,8 +140,13 @@ for (let index = 0; index < arraySubscriptions.length; index++){
 # Listas
 ## 1️⃣ Responde las siguientes preguntas:
 ### ¿Qué es un array?
+Nosotros usamos arrays cuando queremos crear y almacenar una lista de multiples items en una sola variable, son especialmente utiles cuando creamos colecciones ordenadas
 ### ¿Qué es un objeto?
+Los objetos son utilizados para representar una "cosa" en mi codigo, basicamente cualquier cosa que este hecha o pueda ser definida por un par de caracteristicas, esas caracteristicas son llamados propiedades que consisten en parejas clave valor
 ### ¿Cuándo es mejor usar objetos o arrays?
+Ambos son considerados como datos especiales en JavaScript. Los objetos representan un tipo especial de dato que es mutable y puede ser usado para almacenar colecciones de datos.
+
+Arrays son un tipo especial de variable que tambien es mutable y puede ser usado para almacenar una lista de valores
 ### ¿Puedo mezclar arrays con objetos o incluso objetos con arrays?
 ## 2️⃣ Crea una función que pueda recibir cualquier array como parámetro e imprima su primer elemento.
 ``` js
