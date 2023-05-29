@@ -86,6 +86,7 @@ Un condicional es un bloque de codigo que se ejecuta bajo una condicion o valida
 ### ¿Qué tipos de condicionales existen en JavaScript y cuáles son sus diferencias?
 * if : La sentencia if nos dice que dada una condicion ejecute o no, un bloque de codigo
 * Switch : la sentencia switch lo que hace es que nos da la opcion de ejecutar diferentes acciones dadas diferentes condiciones
+* Operador ternario expresión_condicional ? expresion1 : expresion2
 ### ¿Puedo combinar funciones y condicionales?
 Claro que si se pueden combinar, es mas normalmente se trabajan los condicionales dentro de funciones porque son pedaos de codigo que normalemente se reutilian a lo largo del codigo
 ## 2️⃣ Replica el comportamiento del siguiente código que usa la sentencia switch utilizando if, else y else if:
