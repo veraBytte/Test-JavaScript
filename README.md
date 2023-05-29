@@ -138,7 +138,7 @@ for (let index = 0; index < arraySubscriptions.length; index++){
     }
 }
 ```
-# Condicionales
+# Ciclos
 ## 1️⃣ Responde las siguientes preguntas en la sección de comentarios:
 ### ¿Qué es un ciclo?
 ### ¿Qué tipos de ciclos existen en JavaScript?
