@@ -84,8 +84,8 @@ const referencia = function(name,lastname,nickname){
 ### ¿Qué es un condicional?
 Un condicional es un bloque de codigo que se ejecuta bajo una condicion o validación previamente establecida.
 ### ¿Qué tipos de condicionales existen en JavaScript y cuáles son sus diferencias?
-* if : La sentencia if nos dice que dada una condicion ejecute o no, un bloque de codigo
-* Switch : la sentencia switch lo que hace es que nos da la opcion de ejecutar diferentes acciones dadas diferentes condiciones
+* if : La sentencia if nos dice que dada una condicion ejecute o no, un bloque de codigo, hay que tener en cuenta que el if nos permite hacer validaciones completamente distintas si asi lo queremos
+* Switch : la sentencia switch lo que hace es que nos da la opcion de ejecutar diferentes acciones comparando cada cases con la misma variable o condicion que definimos en el switch
 * Operador ternario expresión_condicional ? expresion1 : expresion2
 ### ¿Puedo combinar funciones y condicionales?
 Claro que si se pueden combinar, es mas normalmente se trabajan los condicionales dentro de funciones porque son pedaos de codigo que normalemente se reutilian a lo largo del codigo
@@ -138,6 +138,24 @@ for (let index = 0; index < arraySubscriptions.length; index++){
     }
 }
 ```
+# Condicionales
+## 1️⃣ Responde las siguientes preguntas en la sección de comentarios:
+### ¿Qué es un ciclo?
+### ¿Qué tipos de ciclos existen en JavaScript?
+### ¿Qué es un ciclo infinito y por qué es un problema?
+### ¿Puedo mezclar ciclos y condicionales?
+## 2️⃣ Replica el comportamiento de los siguientes ciclos for utilizando ciclos while:
+```js
+for (let i = 0; i < 5; i++) {
+    console.log("El valor de i es: " + i);
+}
+
+for (let i = 10; i >= 2; i--) {
+    console.log("El valor de i es: " + i);
+}
+```
+## 3️⃣ Escribe un código en JavaScript que le pregunte a los usuarios cuánto es 2 + 2. Si responden bien, mostramos un mensaje de felicitaciones, pero si responden mal, volvemos a empezar.
+💡 Pista: puedes usar la función prompt de JavaScript.
 # Listas
 ## 1️⃣ Responde las siguientes preguntas:
 ### ¿Qué es un array?
