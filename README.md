@@ -82,7 +82,7 @@ const referencia = function(name,lastname,nickname){
 # Condicionales
 ## 1️⃣ Responde las siguientes preguntas :
 ### ¿Qué es un condicional?
-Un condicional es un bloque de codigo que se ejecuta bajo una condicion previamente establecida.
+Un condicional es un bloque de codigo que se ejecuta bajo una condicion o validación previamente establecida.
 ### ¿Qué tipos de condicionales existen en JavaScript y cuáles son sus diferencias?
 * if : La sentencia if nos dice que dada una condicion ejecute o no, un bloque de codigo
 * Switch : la sentencia switch lo que hace es que nos da la opcion de ejecutar diferentes acciones dadas diferentes condiciones
