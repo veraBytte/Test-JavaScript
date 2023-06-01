@@ -147,7 +147,9 @@ Es la forma en la cual podemos ejecutar instrucciones una n cantidad de veces, e
 * **For :** Automaticamente nos obliga a definir que pasa al inicio y al final de cada validación, el for tiene varias variantes como 'forEach, for Of, for In'.
 * **do While :** Hace la misma funcion que el while, la unica diferencia es que, en el do while siempre se ejecutara el bloque de codigo del ciclo sin importar el resultado de la condicion.
 ### ¿Qué es un ciclo infinito y por qué es un problema?
+Un ciclo infinito es cuando una condicion siempre da como resultado como verdadero por lo que se ejecutara de forma infinita
 ### ¿Puedo mezclar ciclos y condicionales?
+Si, los ciclos son una especie de condicionales, nada nos impide generar condicionales dentro de un ciclo
 ## 2️⃣ Replica el comportamiento de los siguientes ciclos for utilizando ciclos while:
 ```js
 for (let i = 0; i < 5; i++) {
@@ -158,8 +160,31 @@ for (let i = 10; i >= 2; i--) {
     console.log("El valor de i es: " + i);
 }
 ```
+* **Respuesta**
+``` js
+let n = 0
+
+while(n < 5){
+  console.log(n)
+  n++
+}
+```
+
 ## 3️⃣ Escribe un código en JavaScript que le pregunte a los usuarios cuánto es 2 + 2. Si responden bien, mostramos un mensaje de felicitaciones, pero si responden mal, volvemos a empezar.
 💡 Pista: puedes usar la función prompt de JavaScript.
+``` js
+let keep_on = true;
+
+let sum = 0;
+
+while(keep_on){
+    sum = prompt("¿Cuánto es 2+2?")
+    if (suma==4){
+        console.log("Felicidades");
+        keep_on = false;
+    }
+}
+```
 # Listas
 ## 1️⃣ Responde las siguientes preguntas:
 ### ¿Qué es un array?
