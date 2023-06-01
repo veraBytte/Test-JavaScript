@@ -141,6 +141,7 @@ for (let index = 0; index < arraySubscriptions.length; index++){
 # Ciclos
 ## 1️⃣ Responde las siguientes preguntas en la sección de comentarios:
 ### ¿Qué es un ciclo?
+Es la forma en la cual podemos ejecutar instrucciones una n cantidad de veces, es
 ### ¿Qué tipos de ciclos existen en JavaScript?
 ### ¿Qué es un ciclo infinito y por qué es un problema?
 ### ¿Puedo mezclar ciclos y condicionales?
