@@ -141,8 +141,11 @@ for (let index = 0; index < arraySubscriptions.length; index++){
 # Ciclos
 ## 1️⃣ Responde las siguientes preguntas en la sección de comentarios:
 ### ¿Qué es un ciclo?
-Es la forma en la cual podemos ejecutar instrucciones una n cantidad de veces, es
+Es la forma en la cual podemos ejecutar instrucciones una n cantidad de veces, es decir nosotros tenemos la eleccion de escojer cuantas veces o bajo que condiciones se hara el ciclo. 
 ### ¿Qué tipos de ciclos existen en JavaScript?
+*** While :** Este ciclo nos permite ejecutar un bloque de codigo repetidamente que cumple con una condicion o validacion
+* **For :** Automaticamente nos obliga a definir que pasa al inicio y al final de cada validación, el for tiene varias variantes como 'forEach, for Of, for In'.
+* **do While :** Hace la misma funcion que el while, la unica diferencia es que, en el do while siempre se ejecutara el bloque de codigo del ciclo sin importar el resultado de la condicion.
 ### ¿Qué es un ciclo infinito y por qué es un problema?
 ### ¿Puedo mezclar ciclos y condicionales?
 ## 2️⃣ Replica el comportamiento de los siguientes ciclos for utilizando ciclos while:
