@@ -229,3 +229,31 @@ function datosObj(obj) {
     }
 }
 ```
+# Bonus
+### Condicional con un solo if 
+``` js
+function suscripcion(suscripcion) {
+    if (suscripcion == 'Basic') {
+        console.log('Esta es Basic')
+        return
+    }
+
+    if (suscripcion == 'Expert') {
+        console.log('Esta es Expert')
+        return
+    }
+
+    if (suscripcion == 'Duo') {
+        console.log('Esta es Duo')
+        return
+    }
+
+    if (suscripcion == 'Plus') {
+        console.log('Esta es Plus')
+        return
+    }
+
+    console.warn("Ese tipo de suscripcion no existe")
+}
+```
+## 
