@@ -194,8 +194,11 @@ Los objetos son utilizados para representar una "cosa" en mi codigo, basicamente
 ### ¿Cuándo es mejor usar objetos o arrays?
 Ambos son considerados como datos especiales en JavaScript. Los objetos representan un tipo especial de dato que es mutable y puede ser usado para almacenar colecciones de datos.
 
-Arrays son un tipo especial de variable que tambien es mutable y puede ser usado para almacenar una lista de valores
+Arrays : Cuando es algo generico 
+Objeto : Cuando los nombres de cada elementos son importantes para nuestro algoritmo
+
 ### ¿Puedo mezclar arrays con objetos o incluso objetos con arrays?
+Si, Los arrays pueden guardar objetos, y los objetos pueden guardar arrays
 ## 2️⃣ Crea una función que pueda recibir cualquier array como parámetro e imprima su primer elemento.
 ``` js
 let array = ["manzana","durazno","pera"];
@@ -214,11 +217,15 @@ function firstElement(array){
 ```
 ## 4️⃣ Crea una función que pueda recibir cualquier objeto como parámetro e imprima todos sus elementos uno por uno (no se vale imprimir el objeto completo).
 ``` js
-let arrayObj = [{nombre: "manzana"},{nombre: "pera"},{nombre: "durazno"},{nombre: "mango"}]
+const car = {nombre: 'Mazda', 
+             tipo: 'Camioneta',
+             color: 'Morado'}
 
-function firstElementObj(array){
-  for (let element of array) {
-      console.log(element.nombre)
-  }
+function datosObj(obj) {
+    let arrayValores = Object.values(obj)
+    
+    for (let index = 0; index < arrayValores.length; index++){
+            console.log(arrayValores[index])
+    }
 }
 ```
