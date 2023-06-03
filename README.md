@@ -256,4 +256,21 @@ function suscripcion(suscripcion) {
     console.warn("Ese tipo de suscripcion no existe")
 }
 ```
-## 
+### 💡 Bonus: si ya eres una experta o experto en el lenguaje, te desafío a comentar cómo replicar este comportamiento con arrays y un solo condicional. 😏
+``` js
+const tipos = {
+    free : 'Solo cursos gratis',
+    expert : 'Solo cursos expert',
+    expertDuo : 'Solo cursos expert para dos personas',
+    Basic : 'Algunos cursos Experts',
+}
+
+function mensaje(suscripcion) {
+    if(tipos[suscripcion]){
+        console.log(tipos[suscripcion])
+        return
+    }
+
+    console.warn("Esa suscripcion no existe")
+}
+```
