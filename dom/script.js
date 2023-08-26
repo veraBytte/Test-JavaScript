@@ -5,6 +5,7 @@ const parrafo = document.querySelector('p')
 const parrafos = document.getElementsByClassName('parrafo')
 const caja = document.querySelector('div')
 
+
 // console.log({
 //     titulo,
 //     input,
